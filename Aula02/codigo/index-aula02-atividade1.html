@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estrutura HTML5</title>
+    <meta name="description" content="Uma página de exemplo para demonstrar a estrutura básica do HTML5.">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+        body {
+            font-family: "Arial", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #b95252, #15af3c);
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: rgb(210, 224, 9);
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        p {
+            color: rgb(8, 28, 54);
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .caixa {
+            background-color: white;
+            border: 3px dashed #007BFF;
+            padding: 20px;
+            margin: 15px 0;
+            text-align: center;
+        }
+
+        img.w800 {
+            width:300px;
+        }
+        img.h800 {
+            height:800px;
+        }
+
+        figure {
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 20px;
+            border: 10px dashed rgb(240, 5, 5);
+        }
+
+        img.w300_redonda {
+            width: 500px;
+            height: auto;
+            clip-path: circle(40%);
+        }
+
+        img.wmax {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Elemento HEADER --> 
+    <header>
+        <h1>Aula 02 - Imagens - Parte 01</h1>
+    </header>
+
+    <!-- Ememento MAIN - Área principal da página -->
+    <main>
+        <section id="section1">
+            <h2>Seção 1: Introdução
+
+            <p>Esta é a primeira seção da página. <br>
+                Aqui você pode adicionar informações introdutórias.</p>
+
+            <div class="caixa">
+                Conteúdo formatado
+            </div>
+            </p>
+            </h2>
+        </section>
+        
+        <section id="section1">
+            <h1>Imagem Original</h1>
+            <img src="img/paisagem-original.jpg"
+                alt="Por do sol"
+                width="800px">
+        </section>
+
+        <section id="section2">
+            <h1>Imagem com 300px de largura</h1>
+            <img src="img/paisagem-original.jpg"
+                alt="Por do sol"
+                class="w800">
+        </section>
+
+        <figure>
+            <img src="img/paisagem-original.jpg"
+            alt="Por do Sol"
+            class="h800">
+        <figcaption>
+            Paisagem - Imagem Original
+        </figcaption>
+        </figure>
+
+        <figure>
+            <img src="img/paisagem-original.jpg"
+            alt="Por do Sol"
+            class="w300_redonda">
+        <figcaption>
+            Paisagem - Imagem Original
+        </figcaption>
+        </figure>
+
+        
+        <figure>
+            <img src="img/paisagem-original.jpg"
+            alt="Por do Sol"
+            class="wmax">
+            <figcaption>
+                Paisagem - Imagem Original
+            </figcaption>
+        </figure>
+
+        
+
+
+
+
+        
+    </main>
+
+    <!-- Elemento FOOTER - Roda-pé da página --> 
+    <footer id="footer">
+        <p>&copy; 2025 - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
