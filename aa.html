@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropTee- Loja de Camisetas</title>
+    <meta name="description" content="Uma página de exemplo para demonstrar a estrutura básica do HTML5 com Bootstrap.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos personalizados (opcional) -->
+    <style>
+        body {
+            padding: 20px;
+        }
+        header {
+            margin-bottom: 20px;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            background-color: #f8f9fa;
+
+        }
+
+        header {
+            padding: 50px;
+            background-color: rgb(187, 187, 187);
+            border-radius: 20px;
+
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid rgb(165, 165, 165);
+            padding: 12px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+        background-color: #eaeaea;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1 class="text-black">DropTee</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li class="nav-item"><a href="#section2" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="#footer" class="nav-link">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+
+    <main class="container">
+        
+        <section>
+
+            <div class="table-container">
+                <table>
+                  <caption>Preços válidos até 01/10/2025 | Frete grátis acima de R$300,00</caption>
+                  
+                  <!-- Cabeçalho da Tabela -->
+                  
+                  <thead>
+                    <tr>
+                      <th scope="col">Foto</th>         
+                      <th scope="col">Descrição</th>
+                      <th scope="col" colspan="2">Valor</th>
+
+                    </tr>
+                  </thead>
+
+                  <!-- Corpo da Tabela -->
+
+                  <tbody>
+
+                    <!-- Primeira Camiseta - Camiseta Oversided -->
+                    
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camisa+Oversided&font=roboto" alt="CamisetaDropTheTee"></td>
+                      <td>Camiseta DropTheTee Modelagem Oversided 
+                        <li>Cor: Branca</li>
+                        <li>Material: 100% Algodão</li>
+                      </td>
+                      <td>R$ 129,90</td>
+                      <td rowspan="2">R$ 289,90 (Combo)</td>
+                    </tr>
+
+                    <!-- Segunda Camiseta - Camiseta Boxy -->
+
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camisa+Boxy&font=roboto" alt="CamisetaDropTee"></td>
+                      <td>Camiseta DropTee Since 1999
+                        <li>Cor: Preta</li>
+                        <li>Material: 100% Algodão</li>
+                        <li>Modelagem: Boxy</li>
+                        </td>
+                      <td>R$ 189,90</td>
+                    </tr>
+
+                    <!-- Terceira Camiseta - Camisa Manga Longa -->
+
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camisa+Manga+Longa&font=roboto" alt=""></td>
+                      <td>Camisa DropTee Manga Longa</td>
+                      <td colspan="2">Promoção Esgotada</td>
+                    </tr>
+
+                    <!-- Quarta Camiseta - Estampa de Leão -->
+
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camisa+Oversided&font=roboto" alt="CamisetaDropTheTee"></td>
+                      <td>Camiseta Rei da Selva 
+                        <li>Cor: Branca</li>
+                        <li>Material: 100% Algodão</li>
+                        <li>Modelagem: Oversided </li>
+                      </td>
+                      <td colspan="2">R$ 129,90</td>
+                      
+                    </tr>
+
+                    <!-- Quinta Camiseta - Camiseta Futebol Clube -->
+
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camiseta+Futebol&font=roboto" alt="CamisetaDropTee"></td>
+                      <td>Camiseta DropTee Futebol Clube
+                        <li>Cor: Preta</li>
+                        <li>Material: 100% Algodão</li>
+                        <li>Modelagem: Slim</li>
+                      <td colspan="2">R$ 189,90</td>
+                    </tr>
+
+                    <!-- Sexta Camiseta - Camiseta Clube da Luta  -->
+
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camisa+Clube+da+Luta&font=roboto" alt=""></td>
+                      <td>Camisa DropTee Clube da Luta</td>
+                      <td colspan="2">Promoção Esgotada</td>
+                    </tr>
+
+                    <!-- Primeira Camiseta - Camiseta Oversided -->
+                    
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camisa+Oversided&font=roboto" alt="CamisetaDropTheTee"></td>
+                      <td>Camiseta DropTheTee 
+                        <li>Cor: Branca</li>
+                        <li>Material: 100% Algodão</li>
+                      </td>
+                      <td>R$ 129,90</td>
+                      <td rowspan="2">R$ 289,90 (Combo)</td>
+                    </tr>
+
+                    <!-- Segunda Camiseta - Camiseta Boxy -->
+
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camisa+Boxy&font=roboto" alt="CamisetaDropTee"></td>
+                      <td>Camiseta DropTee 2000s
+                        <li>Cor: Preta</li>
+                        <li>Material: 100% Algodão</li>
+                        <li>Modelagem: Boxy</li>
+                        </td>
+                      <td>R$ 189,90</td>
+                    </tr>
+
+                    <!-- Terceira Camiseta - Camisa Manga Longa -->
+
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camisa+Manga+Longa&font=roboto" alt=""></td>
+                      <td>Camisa DropTee Manga Longa</td>
+                      <td colspan="2">Promoção Esgotada</td>
+                    </tr>
+
+                    <!-- Quarta Camiseta - Estampa de Leão -->
+
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camisa+Oversided&font=roboto" alt="CamisetaDropTheTee"></td>
+                      <td>Camiseta Rei da Selva 
+                        <li>Cor: Branca</li>
+                        <li>Material: 100% Algodão</li>
+                        <li>Modelagem: Oversided </li>
+                      </td>
+                      <td colspan="2">R$ 129,90</td>
+                      
+                    </tr>
+
+                    <!-- Quinta Camiseta - Camiseta Futebol Clube -->
+
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camiseta+Futebol&font=roboto" alt="CamisetaDropTee"></td>
+                      <td>Camiseta DropTee Futebol Clube
+                        <li>Cor: Preta</li>
+                        <li>Material: 100% Algodão</li>
+                        <li>Modelagem: Slim</li>
+                      <td colspan="2">R$ 189,90</td>
+                    </tr>
+
+                    <!-- Sexta Camiseta - Camiseta Clube da Luta  -->
+
+                    <tr>
+                      <td><img src="https://placehold.co/100?text=Camisa+Clube+da+Luta&font=roboto" alt=""></td>
+                      <td>Camisa DropTee Clube da Luta</td>
+                      <td colspan="2">Promoção Esgotada</td>
+                    </tr>
+
+                    <!-- Setima Camiseta - Camiseta Clube da Luta  -->
+
+                    <tr>
+                        <td><img src="https://placehold.co/100?text=Camisa+Clube+da+Luta&font=roboto" alt=""></td>
+                        <td>Camisa DropTee Classica</td>
+                        <td colspan="2">Promoção Esgotada</td>
+                        </tr>
+
+
+                    <!-- Oitava Camiseta - Camiseta Futebol Clube -->
+
+                    <tr>
+                        <td><img src="https://placehold.co/100?text=Camiseta+Futebol&font=roboto" alt="CamisetaDropTee"></td>
+                        <td>Camiseta Canelada
+                          <li>Cor: Preta</li>
+                          <li>Material: 100% Algodão</li>
+                          <li>Modelagem: Slim</li>
+                        <td colspan="2">R$ 189,90</td>
+                      </tr>
+
+                    <!-- Oitava Camiseta - Camiseta Gola Inglesa-->
+
+                    <tr>
+                        <td><img src="https://placehold.co/100?text=Camiseta+Gola+Inglesa&font=roboto" alt="CamisetaDropTee"></td>
+                        <td>Camiseta Gola Inglesa
+                            <li>Cor: Preta</li>
+                            <li>Material: 100% Algodão</li>
+                            <li>Modelagem: Slim</li>
+                        <td colspan="2">R$ 129,90</td>
+                        </tr>
+
+                    <!-- Nona Camiseta - Camiseta Futebol Clube -->
+
+                    <tr>
+                        <td><img src="https://placehold.co/100?text=Have+a+Good+Trip&font=roboto" alt="CamisetaDropTee"></td>
+                        <td>Camiseta Have a Good Trip
+                            <li>Cor: Preta</li>
+                            <li>Material: 100% Algodão</li>
+                            <li>Modelagem: Slim</li>
+                        <td colspan="2">R$ 129,90</td>
+                        </tr>
+
+
+                  </tbody>
+                </table>
+              </div>
+
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="footer" class="container text-center">
+        <p class="text-muted">&copy; DropTee 2025 - Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS e dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
